@@ -14,7 +14,9 @@
       border-color: blueviolet;
       border-width: 3px;
       border-style: solid;
-    
+      #cat-photo-form {
+      background-color: pink;
+  }
     </style>
     <title>Spring</title>
   </head>
@@ -48,7 +50,7 @@
 <label for="hate"><input id="hate" type="checkbox" name="personally">Hate</label>
 <label for="nothing"><input id="nothing" type="checkbox" name="personality" value="nothing" checked>Nothing</label>
     </main>
-    <form action="https://www.freecatphotoapp.com/submit-cat-photo">
+    <form action="https://www.freecatphotoapp.com/submit-cat-photo" id="cat-photo-form">
     <input type="text" placeholder="URL of cats photo"required>
     <button type="submit">Submit</button>
     <div>
